@@ -88,8 +88,7 @@ main()
 		graph[v].push_back({u,0});
 		graph[u].push_back({v,0});
 	}
-	//cout<<cost("hamza","haz")<<endl;
-	//cout<<cost(vertices[0],vertices[1])<<endl;
+
 	for(int i=0;i<n;i++){
 		 auto node=vertices[i];
 		 //cout<<node<<endl;
